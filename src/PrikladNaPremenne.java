@@ -34,5 +34,6 @@ public class PrikladNaPremenne {
 
         // TODO vypiste znamku v slov,cize desatinna ciarka
         System.out.printf("student dostal znamku %.2f",znamka);
+
     }
 }
