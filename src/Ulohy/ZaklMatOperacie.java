@@ -19,15 +19,15 @@ public class ZaklMatOperacie {
 
     public static void main(String[] args) {
     double c1=2,c2=3;
-    double c3=3.54;
+
 
         System.out.println("Vysledok nasobenia je "+ (c1*c2));
         System.out.println("Vysledok delenia je "+ (c1/c2));
         System.out.println("Vysledok scitania je "+ (c1+c2));
         System.out.println("Vysledok odcitania je "+ (c1-c2));
         System.out.println("Vysledok modulu je "+ (c1%c2));
-        System.out.printf("premana des. cisla %.2f",c3);
-
+        System.out.printf("premana des. cisla %.2f",(c1/c2));
+// druha varianta od lektora
         double scitanie = c1 + c2;
         double odcitanie = c1 - c2;
         double nasobenie = c1 * c2;
@@ -36,7 +36,7 @@ public class ZaklMatOperacie {
 
 
 
-        System.out.println("Výsledkom sčítania hodnôt " + c1 + " a " + c2 + " je " + scitanie);
+        System.out.println("\nVýsledkom sčítania hodnôt " + c1 + " a " + c2 + " je " + scitanie);
         System.out.println("Výsledkom odčítania hodnôt " + c1 + " a " + c2 + " je " + odcitanie);
         System.out.println("Výsledkom násobenia hodnôt " + c1 + " a " + c2 + " je " + nasobenie);
         System.out.println("Výsledkom delenia hodnôt " + c1 + " a " + c2 + " je " + delenie);
